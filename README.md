@@ -96,9 +96,11 @@ AI概率性考量：
 残障人士游馆体验差，无法了解全面的信息 | 语音助手帮助残障人士解决困难。
 
 
-## API 完整示例代码 [链接]()
+## API 完整示例代码 [链接](https://github.com/Jerryrongjie/API_musemu/blob/master/_musemu.ipynb)
 
 - Azure 人脸识别
+  - 输入：人脸图像url
+  - 输出：人脸识别信息
 
 ```
 import requests
@@ -145,7 +147,9 @@ def annotate_image(image_url):
 annotate_image("https://how-old.net/Images/faces2/main007.jpg")
 ```
 - Azure 计算机视觉
-
+  - 输入： 图像url
+  - 输出： 图像描述
+  
 ```
 import http.client, urllib.request, urllib.parse, urllib.error, base64
 import requests
@@ -173,6 +177,9 @@ print(vison)
 ```
 
 - Azure 语音合成
+
+  - 输入： 文本
+  - 输出： 音频文件（wav格式）
 
 ```
 import azure.cognitiveservices.speech as speechsdk
