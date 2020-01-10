@@ -19,14 +19,33 @@
 
 
 ## 三、功能说明：
+![产品架构图](https://github.com/Jerryrongjie/API_musemu/blob/master/%E5%8E%9F%E5%9E%8B%E5%9B%BE/%E5%8D%9A%E7%89%A9%E9%A6%86%E5%AF%BC%E8%A7%88app.jpg)
+
   1. 人脸识别api：（验证信息）
 在入闸口增加识别身份证和识别人脸同时进行。验证身份证信息与本人信息是否一致。
+
+![入门检测功能](https://github.com/Jerryrongjie/API_musemu/blob/master/%E5%8E%9F%E5%9E%8B%E5%9B%BE/1_1_%E5%85%A5%E9%97%A8%E6%A3%80%E6%B5%8B.jpg)
+
   2. 视频审查api+语音合成api（排查现场访客是否存在不文明行为）
 针对部分游客的不文明现象，可以通过监控监测到该人的行为超过了预设值，并发出声音播报提醒游客。或者通过手机端（在小程序上）提醒该访客。
+
+![安全检测](https://github.com/Jerryrongjie/API_musemu/blob/master/%E5%8E%9F%E5%9E%8B%E5%9B%BE/1_2_%E5%8F%8A%E6%97%B6%E6%8F%90%E9%86%92.jpg)
+
   3. 计算机影像：文物识别
 通过文本分析及文本翻译，将文物中的详情以及文物上的古文和其中的意境解说出来。
+
+![展品识别](https://github.com/Jerryrongjie/API_musemu/blob/master/%E5%8E%9F%E5%9E%8B%E5%9B%BE/1_3_%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89.jpg)
+
   4. 语音识别：智能翻译
 通过文字转语音及语音合成完成用户用语言向产品提交问题，无需手打文字。
+
+![语音助手](https://github.com/Jerryrongjie/API_musemu/blob/master/%E5%8E%9F%E5%9E%8B%E5%9B%BE/1_4_%E8%AF%AD%E9%9F%B3%E5%8A%A9%E6%89%8B.jpg)
+
+
+### 原型文档 已上传至 Github Pages [链接](https://jerryrongjie.github.io/API_musemu/)
+
+
+
 
 ## 四、成本效益分析：
 1. 成本分析：
@@ -75,3 +94,6 @@ AI概率性考量：
 讲解员无法同时使用多种语言，为所有人讲解 | 语音合成，帮助游客了解展品故事。
 人流量多时，安检巡查变得更加困难 | 视频审查&语音合成，及时提醒游客文明参观。
 残障人士游馆体验差，无法了解全面的信息 | 语音助手帮助残障人士解决困难。
+
+
+
